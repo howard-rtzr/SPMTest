@@ -1,5 +1,5 @@
 public struct spmTest {
-    public private(set) var text = "MacBook"
+    public private(set) var text = "GCP"
 
     public init() {
     }
