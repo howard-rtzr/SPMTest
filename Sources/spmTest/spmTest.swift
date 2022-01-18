@@ -1,5 +1,5 @@
 public struct spmTest {
-    public private(set) var text = "StarBucks"
+    public private(set) var text = "1.0.1 version"
 
     public init() {
     }
