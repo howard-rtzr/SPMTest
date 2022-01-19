@@ -20,7 +20,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(name: "Alamofire", url: "https://github.com/Alamofire/Alamofire", from: "4.3.0")
+        .package(name: "Alamofire", url: "https://github.com/Alamofire/Alamofire", branch: "master")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
