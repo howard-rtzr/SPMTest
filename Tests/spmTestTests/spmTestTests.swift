@@ -7,7 +7,7 @@ final class spmTestTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         
-        spmTest().sayHello { result in
+        spmTest().sayHi { result in
             if result.isEmpty {
                 XCTFail()
             }

@@ -8,7 +8,7 @@ public struct spmTest {
     public init() {
     }
     
-    public func sayHello(completion: @escaping (String) -> Void) -> Void {
+    public func sayHi(completion: @escaping (String) -> Void) -> Void {
         AF.request("https://httpbin.org/get").response { response in
             DispatchQueue.main.async {
                 completion(response.description)
