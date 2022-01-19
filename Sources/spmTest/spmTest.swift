@@ -9,9 +9,9 @@ public struct spmTest {
     }
     
     public func sayHello(completion: @escaping (String) -> Void) -> Void {
-        AF.request("https://httpbin.org/get").response { response in
+        Alamofire.request("https://httpbin.org/get").response { response in
             DispatchQueue.main.async {
-                completion(response.description)
+                completion(response.response?.description ?? "")
             }
         }
     }
