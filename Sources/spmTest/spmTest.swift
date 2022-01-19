@@ -3,7 +3,7 @@ import Alamofire
 
 
 public struct spmTest {
-    public private(set) var text = "GCP"
+    public private(set) var text = "Test"
 
     public init() {
     }
